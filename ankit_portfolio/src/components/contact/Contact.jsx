@@ -1,14 +1,30 @@
 import React, { useRef } from 'react';
 // import emailjs from '@emailjs-com';
 import emailjs from '@emailjs/browser';
-
 import "./contact.css";
+import { Slide, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+
+const notify =() => {
+    toast.success('Mail has been sent!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Slide,
+        });
+};
 
 const Contact = () => {
 
 
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -18,20 +34,20 @@ const Contact = () => {
             })
 
 
-            // .then(
-            //     () => {
-            //         console.log('SUCCESS!');
-            //     },
-            //     (error) => {
-            //         console.log('FAILED...', error.text);
-            //     },
-            // );
+        // .then(
+        //     () => {
+        //         console.log('SUCCESS!');
+        //     },
+        //     (error) => {
+        //         console.log('FAILED...', error.text);
+        //     },
+        // );
 
 
-            e.target.reset()
+        e.target.reset()
 
 
-  
+
     };
 
 
@@ -104,7 +120,7 @@ const Contact = () => {
                         </div>
 
 
-                        <button className="button button--flex">
+                        <button  onClick={notify} className="button button--flex">
                             Send Message
 
                             {/* SVG Path from here  */}
@@ -140,18 +156,32 @@ const Contact = () => {
                 </div>
 
 
-                <div className="contact__content">
+                {/* <div className="contact__content">
                     <h3 className="contact__title"></h3>
                 </div>
-
+ */}
 
 
 
 
             </div>
 
+
+            <div className="toast__container">
+                <ToastContainer />
+            </div>
+
+
+
+
         </section>
+
+
+
     )
+
+
+
 }
 
 export default Contact

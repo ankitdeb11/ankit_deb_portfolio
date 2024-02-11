@@ -1,15 +1,18 @@
-import React, { useEffect } from 'react';
-import {useTypewriter, Cursor} from 'react-simple-typewriter';
+import React from 'react';
+import { useTypewriter } from 'react-simple-typewriter';
+
+
+
 
 const Data = () => {
 
 
     const [text] = useTypewriter({
-        words: ['Web Developer', 'Video Editor', 'Photgrapher',' Android Developer'],
+        words: ['Web Developer', 'Video Editor', 'Photgrapher', ' Android Developer'],
         loop: {},
         typeSpeed: 60,
         deleteSpeed: 80,
-        
+
     })
 
 
@@ -73,10 +76,11 @@ const Data = () => {
 
 
 
-            <h3 className="home__subtitle"> 
-            <span>{text}</span>
+            <h3 className="home__subtitle">
+                <span>{text}</span>
             </h3>
-            <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni dolores blanditiis maxime culpa incidunt neque laboriosam quasi molestias quo?</p>
+            <p className="home__description">Elevating experiences through code, crafting digital dreams. Glad to have you onboard, champ! <i class="uil uil-smile-beam"></i>
+            </p>
 
 
             <a href="#contact" className="button button--flex">

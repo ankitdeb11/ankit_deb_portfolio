@@ -135,6 +135,12 @@
 }
 
 
+.projects__modal-info a{
+    color: #0D6ECE;
+}
+
+
+
 /* Active Modal part  */
 
 .active-modal {

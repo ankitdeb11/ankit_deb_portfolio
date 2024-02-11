@@ -42,7 +42,7 @@ const Projects = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
                             <h3 className="projects__modal-title">Reverb - for Geeks</h3>
-                            <p className="projects__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores delectus soluta incidunt odio nihil eos quam ut dolore deserunt?</p>
+                            <p className="projects__modal-description">Looking for a copilot to stay ambitious? We've got you covered!</p>
 
 
                             <ul className="projects__modal-projects grid">
@@ -51,7 +51,7 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Engineered a self-development platform, prompts user positively towards milestone-driven achievements.</p>
                                 </li>
 
 
@@ -59,28 +59,32 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Automated features such as “SWAT Priority”, Notes, etc help in task adherence, improved SEO by 20%.
+                                    </p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Technology Stack: React JS, Node JS, MongoDB
+                                    </p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Role: Front End Engineer</p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Link and Results: {' '}
+                                        <a href="https://github.com/ankitdeb11/REVERB-Intuition">GitHub Repository</a>
+                                    </p>
                                 </li>
 
 
@@ -118,7 +122,7 @@ const Projects = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
                             <h3 className="projects__modal-title">Wanderventure</h3>
-                            <p className="projects__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores delectus soluta incidunt odio nihil eos quam ut dolore deserunt?</p>
+                            <p className="projects__modal-description">Been a long time since we've read a blog! Let's write about our recent travelling adventure with the family.</p>
 
 
                             <ul className="projects__modal-projects grid">
@@ -127,7 +131,7 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Developed a user-friendly portal for planning, discovery and documentation of travelling experiences</p>
                                 </li>
 
 
@@ -135,28 +139,33 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Implemented features such as venue exploration, community ratings, reviews, seamless web design, etc</p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Technology Stack: React JS, Node JS, MongoDB
+                                    </p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Role: Front End Engineer</p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Link and Results: {' '}
+                                        <a href="https://github.com/ankitdeb11/Wanderventure">GitHub Repository</a>
+                                    </p>
+
+
                                 </li>
 
 
@@ -196,7 +205,7 @@ const Projects = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
                             <h3 className="projects__modal-title">HealthSure</h3>
-                            <p className="projects__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores delectus soluta incidunt odio nihil eos quam ut dolore deserunt?</p>
+                            <p className="projects__modal-description">Long queues, waiting hours and struggles just to seek medical aid? Say No More to all the inconveniences involved! </p>
 
 
                             <ul className="projects__modal-projects grid">
@@ -205,7 +214,8 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Programmed an application that tackles problems faced whilst seeking hospitality and medication by 10%
+                                    </p>
                                 </li>
 
 
@@ -213,28 +223,34 @@ const Projects = () => {
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Deployed user-innovative features such as seamless medicine delivery, doctor appointment bookings, etc</p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Technology Stack: Android SDK, Java, XML, Firebase, Material Design UI
+                                    </p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+                                    <p className="projects__modal-info">Role: Android Developer [Live Projects will be added soon]</p>
                                 </li>
 
 
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
 
-                                    <p className="projects__modal-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dolorum!</p>
+
+                                    <p className="projects__modal-info">Link and Results: {' '}
+                                        <a href="https://github.com/ankitdeb11/Medical-Analytics-HealthSure">GitHub Repository</a>
+                                    </p>
+
+
                                 </li>
 
 

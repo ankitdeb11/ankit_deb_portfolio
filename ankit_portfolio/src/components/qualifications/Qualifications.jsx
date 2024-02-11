@@ -125,7 +125,7 @@ const Qualifications = () => {
 
                 <div className="qualifications__calender">
                   <i class="uil uil-calendar-alt">  </i>
-                  July 22 - Sep 22
+                  July 2022 - Sep 2022
                 </div>
               </div>
 
@@ -153,11 +153,11 @@ const Qualifications = () => {
 
               <div>
                 <h3 className="qualifications__title">Visual Effects Editor</h3>
-                <span className="qualifications__subtitle">The X Crew</span>
+                <span className="qualifications__subtitle">The X Crew - 300K on Socials</span>
 
                 <div className="qualifications__calender">
                   <i class="uil uil-calendar-alt">  </i>
-                  March 21 - Jan 22
+                  March 2021 - Jan 2022
                 </div>
               </div>
 

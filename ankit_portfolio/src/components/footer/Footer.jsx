@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer__container container">
-                <h1 className="footer__title">Thanks for visiting</h1>
+                <h1 className="footer__title">Thanks for visiting. Hasta la vista!</h1>
 
                 <ul className="footer__list">
                     <li>
