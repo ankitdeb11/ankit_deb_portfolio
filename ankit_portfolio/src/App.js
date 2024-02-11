@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Qualifications from './qualifications/Qualifications';
 
+
 function App() {
   return (
     <>

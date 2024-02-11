@@ -41,7 +41,7 @@ const Projects = () => {
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
 
-                            <h3 className="projects__modal-title">Reverb</h3>
+                            <h3 className="projects__modal-title">Reverb - for Geeks</h3>
                             <p className="projects__modal-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi maiores delectus soluta incidunt odio nihil eos quam ut dolore deserunt?</p>
 
 
