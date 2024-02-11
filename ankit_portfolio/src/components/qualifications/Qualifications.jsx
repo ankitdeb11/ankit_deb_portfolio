@@ -39,7 +39,7 @@ const Qualifications = () => {
 
             <div className="qualifications__data">
               <div>
-                <h3 className="qualifications__title">VIT University, IN</h3>
+                <h3 className="qualifications__title">VIT University</h3>
                 <span className="qualifications__subtitle">B. Tech CSE</span>
 
                 <div className="qualifications__calender">
