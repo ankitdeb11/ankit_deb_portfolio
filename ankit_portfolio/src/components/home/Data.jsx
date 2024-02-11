@@ -1,6 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import {useTypewriter, Cursor} from 'react-simple-typewriter';
 
 const Data = () => {
+
+
+    const [text] = useTypewriter({
+        words: ['Web Developer', 'Video Editor', 'Photgrapher',' Android Developer'],
+        loop: {},
+        typeSpeed: 60,
+        deleteSpeed: 80,
+        
+    })
+
+
+
     return (
         <div className="home__data">
             <h1 className="home__title">Ankit Deb
@@ -60,7 +73,9 @@ const Data = () => {
 
 
 
-            <h3 className="home__subtitle">Software Developer</h3>
+            <h3 className="home__subtitle"> 
+            <span>{text}</span>
+            </h3>
             <p className="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni dolores blanditiis maxime culpa incidunt neque laboriosam quasi molestias quo?</p>
 
 

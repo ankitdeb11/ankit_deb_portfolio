@@ -50,7 +50,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
-
+    height: 30px;
 }
 
 .home__subtitle::before {
@@ -171,6 +171,7 @@
     }
 
     .home__subtitle {
+        /* font-size: var(--h3-font-size); */
         padding-left: 3.75rem;
         margin-bottom: var(--mb-1);
     }
