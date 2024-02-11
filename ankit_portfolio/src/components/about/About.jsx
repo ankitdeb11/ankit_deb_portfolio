@@ -3,7 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Ankit_Deb_Resume.pdf";
 import Info from './Info';
-import AboutImg2 from "../../assets/9027293.jpg";
+import AboutImg2 from "../../assets/9027293_removebg.png";
 
 const About = () => {
     return (
@@ -17,7 +17,7 @@ const About = () => {
 
                 <div className="about__data">
                     <Info />
-                    <p className="about__description">Thriving web developer. Have delivered productive and reliable work on a lot of Projects on Industry-Level. Also inclined towards Open-Source Contributions.</p>
+                    <p className="about__description">Thriving Web Developer. Have delivered productive and reliable work on a lot of Projects on Industry-Level. Have also been inclined towards Open-Source Contributions.</p>
 
 
                     <a download="" href={CV} className="button button--flex">Download Resume

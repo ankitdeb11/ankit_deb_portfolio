@@ -8,7 +8,12 @@ const Frontend = () => {
 
 
             <div className="skills__box">
+
+
+
                 <div className="skills__group">
+
+
                     <div className="skills__data">
                         <i class='bx bx-badge-check' ></i>
 
@@ -44,6 +49,14 @@ const Frontend = () => {
 
 
 
+
+
+                </div>
+
+
+                <div className="skills__group">
+
+
                     <div className="skills__data">
                         <i class='bx bx-badge-check' ></i>
 
@@ -56,11 +69,6 @@ const Frontend = () => {
 
 
 
-
-                </div>
-
-
-                <div className="skills__group">
 
 
                     <div className="skills__data">
