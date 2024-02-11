@@ -3,6 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Ankit_Deb_Resume.pdf";
 import Info from './Info';
+import AboutImg2 from "../../assets/9027293.jpg";
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
             <span className="section__subtitle">Let's catch up on what I do</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="" className="about__img" />
+                <img src={AboutImg2} alt="" className="about__img" />
 
 
                 <div className="about__data">

@@ -4,6 +4,8 @@ import Data from './Data';
 import "./home.css";
 import ScrollDown from './ScrollDown';
 
+
+
 const Home = () => {
     return (
         <section className="home section" id="home">
@@ -13,6 +15,8 @@ const Home = () => {
 
                     <Socials />
 
+
+                    {/* My PFP  */}
                     <div className="home__img"></div>
 
                     <Data />

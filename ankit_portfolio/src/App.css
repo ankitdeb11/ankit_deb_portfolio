@@ -83,7 +83,8 @@ textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color: #fff;
   color: var(--text-color);
 }
 
@@ -149,15 +150,17 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  /* background-color: var(--title-color); */
+  background-color: #0D6ECE;
   color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: all 0.5s ease-in-out;
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #003d79;
 }
 
 .button__icon {
@@ -169,6 +172,9 @@ img {
   align-items: center;
 }
 
+
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -178,7 +184,7 @@ img {
   }
 
   .button {
-    padding: 1rem 1.75rem;
+    padding: 0.5rem 0.5rem;
   }
 
   .button__icon {
