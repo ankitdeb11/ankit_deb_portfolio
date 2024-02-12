@@ -77,7 +77,8 @@ const Data = () => {
 
 
             <h3 className="home__subtitle">
-                <span>{text}</span>
+                {/* <span>{text}</span> */}
+                <span>Software Developer</span>
             </h3>
             <p className="home__description">Elevating experiences through code, crafting digital dreams. Glad to have you onboard, champ! <i class="uil uil-smile-beam"></i>
             </p>
